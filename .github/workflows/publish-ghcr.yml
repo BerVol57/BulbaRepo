@@ -13,3 +13,6 @@ jobs:
           docker login --username bervol57 --password ${{ secrets.GH_PAT }} ghcr.io
           docker build . --tag ghcr.io/bervol57/bulba-repo:latest
           docker push ghcr.io/bervol57/bulba-repo:latest
+          
+      - name: Run the docker container
+        run: docker run ghcr.io/bervol57/bulba-repo:latest
