@@ -1,6 +1,9 @@
 # created by virtualenv automatically
 .venv/
 __pycache__/
+<<<<<<< HEAD
 terraform/.terraform/
 volume
+=======
+>>>>>>> 216fc498cc9a6e4ad7d2835bab671f7023b3abc9
 .idea
