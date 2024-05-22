@@ -1,3 +1,6 @@
 # created by virtualenv automatically
-.venv/Lib
+.venv/
+__pycache__/
+terraform/.terraform/
+volume
 .idea
